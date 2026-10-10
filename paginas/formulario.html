@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Quero Adotar - MiauLar</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<header class="header">
+
+  <div class="header-conteudo">
+
+    <a href="../index.html" class="marca">
+      <img src="../img/logo.png" alt="Logo MiauLar" class="header_logo">
+    </a>
+
+    <nav class="header_nav">
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="blog.html">Educação e Dúvidas</a></li>
+      </ul>
+    </nav>
+
+    <a href="formulario.html" class="btn btn-header">
+      Quero Adotar
+    </a>
+
+  </div>
+
+</header>
+
+<main class="formulario">
+
+  <div id="conteudoFormulario">
+
+    <h1>Quero Adotar</h1>
+
+    <p>
+      Preencha o formulário abaixo para demonstrar seu interesse
+      em adotar um dos animais disponíveis no MiauLar.
+    </p>
+
+    <p>
+      <strong>Atenção:</strong> o preenchimento deste formulário
+      não garante a adoção. Após o cadastro, a equipe responsável
+      poderá entrar em contato para realizar uma entrevista
+      presencial.
+    </p>
+
+    <form id="formAdocao">
+
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+
+      <label for="endereco">Possui filhos ou crianças em casa? Se sim, eles lidam bem com animais?</label>
+      <input type="text" id="filhos" name="filhos" required>
+
+      <label for="endereco">Para criar um animal, é necessário ter condições financeiras para cuidá-lo da melhor forma, 
+        como comprar itens para a necessidade básica, remédios e até brinquedos. </br>
+        Você tem condição de cuidar um animal sem impactar negativamente seu orçamento?
+      </label>
+      <input type="text" id="financeiro" name="financeiro" required>
+
+      <label for="pet">Qual animal deseja adotar?</label>
+      <select id="pet" name="pet" required>
+        <option value="">Selecione</option>
+        <option value="Mimi">Mimi</option>
+        <option value="Tico">Tico</option>
+        <option value="Luna">Luna</option>
+        <option value="Tony">Tony</option>
+        <option value="Yuri e Mia">Yuri e Mia</option>
+        <option value="Farofa">Farofa</option>
+      </select>
+
+      <label for="motivo">Por que deseja adotar?</label>
+      <textarea id="motivo" name="motivo" rows="5" required></textarea>
+
+      <label>
+        <input type="checkbox" required>
+        Estou ciente de que o preenchimento deste formulário
+        não garante a adoção e que a entrevista presencial
+        é obrigatória.
+      </label>
+
+      <button type="submit" class="btn">Enviar interesse</button>
+
+    </form>
+
+  </div>
+
+  <div id="mensagemSucesso" class="mensagem-sucesso">
+
+    <p>
+      Formulário enviado com sucesso! <br>
+    </p>
+
+    <p>
+      <strong>Atenção:</strong> o preenchimento deste formulário
+      não garante a adoção. </br> 
+    </p>
+    <p>
+      Após o cadastro, se selecionado, a equipe responsável
+      entrará em contato para realizar a entrevista presencial.
+    </p>
+
+  </div>
+
+</main>
+
+  <footer>
+    <div class="footer-conteudo">
+      <div>
+        <img src="../img/logo.png" alt="Logo MiauLar" class="footer-logo">
+        <p>
+          Plataforma pensada para incentivar
+          a adoção responsável de animais.
+        </p>
+      </div>
+
+      <div>
+        <strong>Adoção responsável</strong>
+        <p>
+          Adoção não é um impulso do momento, é um compromisso de amor por toda a vida.</br>
+        </p>
+      </div>
+
+    </div>
+
+    <small>
+      © 2026 MiauLar · Cotia, SP · Por: Milena Pauli ·
+    </small>
+
+  </footer>
+
+<script src="../script.js"></script>
+</body>
+</html> 
